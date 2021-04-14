@@ -6,14 +6,14 @@
             "type": "string",
             "maxLength": 10,
             "metadata": {
-                "description": "Provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
+                "description": "Hi, provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
             }
         },
         "managementSubscriptionId": {
             "type": "string",
             "defaultValue": "",
             "metadata": {
-                "description": "Provide subscription id for the dedicated management subscription."
+                "description": "Hi, provide subscription id for the dedicated management subscription."
             }
         },
         "enableLogAnalytics": {

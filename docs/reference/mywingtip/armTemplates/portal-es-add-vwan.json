@@ -10,7 +10,7 @@
                 "name": "lzSettings",
                 "label": "Enterprise-Scale Company prefix",
                 "subLabel": {
-                    "preValidation": "Provide a company prefix for the existing management group structure.",
+                    "preValidation": "Hi, provide a company prefix for the existing management group structure.",
                     "postValidation": "Done"
                 },
                 "bladeTitle": "Company prefix",
@@ -29,7 +29,7 @@
                         "name": "esMgmtGroup",
                         "type": "Microsoft.Common.TextBox",
                         "label": "Existing Management Group prefix",
-                        "toolTip": "Provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale.",
+                        "toolTip": "Hi, provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale.",
                         "defaultValue": "",
                         "constraints": {
                             "required": true,
@@ -106,7 +106,7 @@
                         "name": "esAddress",
                         "type": "Microsoft.Common.TextBox",
                         "label": "Address space (required for Virtual Hub)",
-                        "toolTip": "Provide address prefix in CIDR notation (e.g 192.168.1.0/24)",
+                        "toolTip": "Hi, provide address prefix in CIDR notation (e.g 192.168.1.0/24)",
                         "defaultValue": "192.168.0.0/16",
                         "visible": "[equals(steps('esConnectivityGoalState').esVwan, 'Yes')]",
                         "constraints": {

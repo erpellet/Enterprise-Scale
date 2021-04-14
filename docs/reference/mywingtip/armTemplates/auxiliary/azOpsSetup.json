@@ -11,25 +11,25 @@
         "principalSecret": {
             "type": "secureString",
             "metadata": {
-                "description": "Provide the secret for the service principal."
+                "description": "Hi, provide the secret for the service principal."
             }
         },
         "gitHubUserNameOrOrg": {
             "type": "string",
             "metadata": {
-                "description": "Provide the username or org name for GitHub"
+                "description": "Hi, provide the username or org name for GitHub"
             }
         },
         "paToken": {
             "type": "secureString",
             "metadata": {
-                "description": "Provide the PA Token to authorize Git and create new repository for the organization/user"
+                "description": "Hi, provide the PA Token to authorize Git and create new repository for the organization/user"
             }
         },
         "subscriptionId": {
             "type": "string",
             "metadata": {
-                "description": "Provide the subscriptionId which will be used to initialize Git during deployment runtime."
+                "description": "Hi, provide the subscriptionId which will be used to initialize Git during deployment runtime."
             }
         },
         "appId": {

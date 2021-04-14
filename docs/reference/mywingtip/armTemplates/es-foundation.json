@@ -6,7 +6,7 @@
             "type": "string",
             "maxLength": 10,
             "metadata": {
-                "description": "Provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
+                "description": "Hi, provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
             }
         },
         "managementSubscriptionId": {
@@ -14,7 +14,7 @@
             "defaultValue": "",
             "maxLength": 36,
             "metadata": {
-                "description": "Provide the subscription id of an existing, empty subscription you want to dedicate for management. If you don't want to bring a subscription, leave this parameter empty as is."
+                "description": "Hi, provide the subscription id of an existing, empty subscription you want to dedicate for management. If you don't want to bring a subscription, leave this parameter empty as is."
             }
         },
         "lzSubscriptionId": {
@@ -22,7 +22,7 @@
             "defaultValue": [],
             "maxLength": 36,
             "metadata": {
-                "description": "Provide the subscription id fo an existing, empty subscription you want to move in as your first landing zone."
+                "description": "Hi, provide the subscription id fo an existing, empty subscription you want to move in as your first landing zone."
             }
         },
         "enableLogAnalytics": {

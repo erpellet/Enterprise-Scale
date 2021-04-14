@@ -5,31 +5,31 @@
         "paToken": {
             "type": "securestring",
             "metadata": {
-                "description": "Provide the PA Token to authorize Git and create new repository for the organization/user."
+                "description": "Hi, provide the PA Token to authorize Git and create new repository for the organization/user."
             }
         },
         "principalId": {
             "type": "array",
             "metadata": {
-                "description": "Provide the principalId which is needed to create GitHub secret."
+                "description": "Hi, provide the principalId which is needed to create GitHub secret."
             }
         },
         "principalSecret": {
             "type": "securestring",
             "metadata": {
-                "description": "Provide the principalId which is needed to create GitHub secret"
+                "description": "Hi, provide the principalId which is needed to create GitHub secret"
             }
         },
         "gitHubUserNameOrOrg": {
             "type": "string",
             "metadata": {
-                "description": "Provide username or org name for GitHub."
+                "description": "Hi, provide username or org name for GitHub."
             }
         },
         "topLevelManagementGroupPrefix": {
             "type": "string",
             "metadata": {
-                "description": "Provide the prefix for your ESLZ setup."
+                "description": "Hi, provide the prefix for your ESLZ setup."
             }
         },
         "appId": {

@@ -5,21 +5,21 @@
         "topLevelManagementGroupPrefix": {
             "type": "string",
             "metadata": {
-                "description": "Provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
+                "description": "Hi, provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
             }
         },
         "managementSubscriptionId": {
             "type": "string",
             "defaultValue": "",
             "metadata": {
-                "description": "Provide subscription id for the dedicated management subscription."
+                "description": "Hi, provide subscription id for the dedicated management subscription."
             }
         },
         "workspaceName": {
             "type": "string",
             "defaultValue": "[concat(parameters('topLevelManagementGroupPrefix'), '-la-', parameters('managementSubscriptionId'))]",
             "metadata": {
-                "description": "Provide resource name for the Log Analytics workspace. When deployed using ES RI, this name it provided deterministically based on ESLZ prefix."
+                "description": "Hi, provide resource name for the Log Analytics workspace. When deployed using ES RI, this name it provided deterministically based on ESLZ prefix."
             }
         },
         "workspaceRegion": {

@@ -6,7 +6,7 @@
             "type": "string",
             "maxLength": 10,
             "metadata": {
-                "description": "Provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
+                "description": "Hi, provide a prefix (max 10 characters, unique at tenant-scope) for the Management Group hierarchy and other resources created as part of Enterprise-scale."
             }
         }
     },
@@ -1107,7 +1107,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
@@ -7619,7 +7619,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
@@ -7782,7 +7782,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
@@ -7871,7 +7871,7 @@
                                 "type": "String",
                                 "metadata": {
                                   "displayName": "rgName",
-                                  "description": "Provide name for resource group."
+                                  "description": "Hi, provide name for resource group."
                                 }
                               }
                             },
@@ -8147,7 +8147,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "workspaceName",
-                      "description": "Provide name of existing Log Analytics workspace"
+                      "description": "Hi, provide name of existing Log Analytics workspace"
                     }
                   },
                   "workspaceRegion": {
@@ -8538,14 +8538,14 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "workspaceName",
-                      "description": "Provide name for log analytics workspace"
+                      "description": "Hi, provide name for log analytics workspace"
                     }
                   },
                   "automationAccountName": {
                     "type": "String",
                     "metadata": {
                       "displayName": "automationAccountName",
-                      "description": "Provide name for automation account"
+                      "description": "Hi, provide name for automation account"
                     }
                   },
                   "workspaceRegion": {
@@ -8573,7 +8573,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
@@ -9268,7 +9268,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
@@ -9360,7 +9360,7 @@
                                 "type": "String",
                                 "metadata": {
                                   "displayName": "rgName",
-                                  "description": "Provide name for resource group."
+                                  "description": "Hi, provide name for resource group."
                                 }
                               },
                               "vHUBName": {
@@ -9911,7 +9911,7 @@
                     "type": "String",
                     "metadata": {
                       "displayName": "rgName",
-                      "description": "Provide name for resource group."
+                      "description": "Hi, provide name for resource group."
                     }
                   }
                 },
