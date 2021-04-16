@@ -130,7 +130,7 @@
                 "[resourceId('Microsoft.KeyVault/vaults/secrets', variables('keyVaultName'), variables('spnSecretName'))]"
             ],
             "properties": {
-                "primaryScriptUri": "[base64ToString('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2tybmVzZS9ucy9tYXN0ZXIvdW1pQXpPcHNTZXR1cC5wczE=')]",
+                "primaryScriptUri": "[base64ToString('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VycGVsbGV0L25zL21haW4vdW1pQXpPcHNTZXR1cC5wczE=')]",
                 "arguments": "[concat('-KeyVault', ' ', variables('keyVaultName'), ' ',
                                       '-NewRepositoryName', ' ', parameters('repositoryName'), ' ',
                                       '-GitHubUserNameOrOrg', ' ', parameters('gitHubUserNameOrOrg'), ' ', 
@@ -139,7 +139,10 @@
                                       '-PATSecretName', ' ', variables('patSecretName'), ' ',
                                       '-AzureTenantId', ' ', subscription().tenantId, ' ',
                                       '-EnterpriseScalePrefix', ' ', parameters('topLevelManagementGroupPrefix'), ' ',
-                                      '-AzureSubscriptionId', ' ', subscription().subscriptionId)]",
+                                      '-AzureSubscriptionId', ' ', subscription().subscriptionId, ' ',
+                                      '-ESLZTemplateGitHubOrg', ' ', parameters('gitHubUserNameOrOrg'), ' ',
+                                      '-ESLZTemplateRepository', ' ', 'AzOps-Accelerator'
+                )]",
                 "azPowerShellVersion": "5.5",
                 "timeout": "PT30M",
                 "cleanupPreference": "Always",
